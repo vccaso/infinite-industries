@@ -4,8 +4,24 @@
     <style>
       body {
         font-family: verdana;
-        background-color: #ffeedd;
+        background-color: #ffccaa;
         font-size: 11px;
+      }
+      
+      .desc{
+        font-family: verdana;
+        font-size: 11px;
+        color: blue;
+        padding: 10px;
+      }
+      
+      
+      .prod-container {
+        max-width: 350px;
+        border-radius: 25px;
+        border: 2px solid #73AD21;
+        background: #73AD21;
+        padding: 20px;
       }
       
       .product{
@@ -14,6 +30,7 @@
         color: blue;
         border: 1px;
         padding: 10px;
+        
       }
       
       .spec{
@@ -37,24 +54,28 @@
     <h1>Infinite-Industries</h1>
     <h3>The future is in the stars</h3>
     
-    <p><b> A company made to  create all kinds of robots and machines alike that advance past the frontiers of space and discover things that we are yet understand. </p>
+    <div class="desc"> A company made to  create all kinds of robots and machines alike that advance past the frontiers of space and discover things that we are yet understand. </div>
    
     <h2>Ours robots</h2>
     
+    <div class="prod-container">
     <div class="product">Nano Module 7  </div>
-    <div>NM7 allows to track the temperature and humidity. It is desingned to be carried by a drone.</div>
+    <div class="desc">NM7 allows to track the temperature and humidity. It is desingned to be carried by a drone.</div>
     <div>Specifications</div>
     <div><span class="spec">Temperature range:</span><span class="specvalue">TODO</span></div>
     <div><span class="spec">Battery Life:</span><span class="specvalue">TODO</span></div>
     <div><span class="spec">Humidity range:</span><span class="specvalue">TODO</span></div>
     <div><span class="spec">Sensor</span><span class="specvalue">DHT!!</span></div>
 
-<div>The DHT11 detects water vapor by measuring the electrical resistance between two electrodes. The humidity sensing component is a moisture holding substrate with electrodes applied to the surface. When water vapor is absorbed by the substrate, ions are released by the substrate which increases the conductivity between the electrodes. The change in resistance between the two electrodes is proportional to the relative humidity. Higher relative humidity decreases the resistance between the electrodes, while lower relative humidity increases the resistance between the electrodes.
-</div>
-  
-<div>The DHT11 measures temperature with a surface mounted NTC temperature sensor (thermistor) built into the unit. To learn more about how thermistors work and how to use them on the Arduino, check out this Arduino Thermistor Temperature Sensor Tutorial.
+<div class="desc">The DHT11 detects water vapor by measuring the electrical resistance between two electrodes. 
+  The humidity sensing component is a moisture holding substrate with electrodes applied to the surface. 
+  When water vapor is absorbed by the substrate, ions are released by the substrate which increases the conductivity between the electrodes. 
+  The change in resistance between the two electrodes is proportional to the relative humidity. 
+  Higher relative humidity decreases the resistance between the electrodes, while lower relative humidity increases the resistance between the electrodes.
+  The DHT11 measures temperature with a surface mounted NTC temperature sensor (thermistor) built into the unit. 
+  To learn more about how thermistors work and how to use them on the Arduino, check out this Arduino Thermistor Temperature Sensor Tutorial.
  </div>
-    
+    </div>
     
     </body> 
 </html>
