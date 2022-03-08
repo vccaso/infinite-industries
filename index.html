@@ -1,75 +1,7 @@
 <html>
   <header>
     <title>Infinite-Industries</title>
-    <style>
-      body {
-        font-family: verdana;
-        background-color: #ffccaa;
-        font-size: 11px;
-        margin:40px;
-        padding:40px;
-      }
-      
-      .desc{
-        font-family: verdana;
-        font-size: 14px;
-        color: blue;
-        padding: 10px;
-      }
-      
-      .desc2{
-        font-family: verdana;
-        font-size: 11px;
-        color: blue;
-        padding: 10px;
-      }
-      
-      .prod-container {
-        max-width: 350px;
-        border-radius: 25px;
-        border: 2px solid #73AD21;
-        background: #ffffff;
-        padding: 20px;
-      }
-      
-      .product{
-        font-family: verdana;
-        font-size: 20px;
-        color: blue;
-        border: 1px;
-        padding: 10px;
-        
-      }
-      
-      .spec-title{
-        font-size: 15px;
-        color: #336699;
-      }
-      
-      .spec-parent {
-        margin: 10px;
-        text-align: center;
-      }
-      
-      .spec{
-        font-family: verdana;
-        display: inline-block;
-        font-size: 15px;
-        color: purple;
-        border: 1px;
-        vertical-align: middle;
-        text-align: left;
-      }
-      
-      .specvalue{
-        font-family: verdana;
-        display: inline-block;
-        font-size: 15px;
-        color: #000000;
-        vertical-align: middle;
-        text-align: left;
-      }
-    </style>
+      <link rel="stylesheet" href="style.css">
   </header>
   <body>
 
@@ -81,22 +13,21 @@
     <h2>Ours robots</h2>
     
     <div class="prod-container">
-    <div class="product">Nano Module 7  </div>
-    <div class="desc">NM7 allows to track the temperature and humidity. It is desingned to be carried by a drone.</div>
-    <div class="spec-title" >Specifications</div>
-    <div class="spec-parent" ><div class="spec">Temperature range:</div><div class="specvalue">TODO</div></div>
-    <div class="spec-parent"><div class="spec">Battery Life:</div><div class="specvalue">TODO</div></div>
-    <div class="spec-parent"><div class="spec">Humidity range:</div><div class="specvalue">TODO</div></div>
-    <div class="spec-parent"><div class="spec">Sensor</div><div class="specvalue">DHT!!</div></div>
-
-<div class="desc2">The DHT11 detects water vapor by measuring the electrical resistance between two electrodes. 
-  The humidity sensing component is a moisture holding substrate with electrodes applied to the surface. 
-  When water vapor is absorbed by the substrate, ions are released by the substrate which increases the conductivity between the electrodes. 
-  The change in resistance between the two electrodes is proportional to the relative humidity. 
-  Higher relative humidity decreases the resistance between the electrodes, while lower relative humidity increases the resistance between the electrodes.
-  The DHT11 measures temperature with a surface mounted NTC temperature sensor (thermistor) built into the unit. 
-  To learn more about how thermistors work and how to use them on the Arduino, check out this Arduino Thermistor Temperature Sensor Tutorial.
- </div>
+      <div class="product">Nano Module 7</div>
+      <div class="desc">NM7 allows to track the temperature and humidity. It is desingned to be carried by a drone.</div>
+      <div class="spec-title" >Specifications</div>
+      <div class="spec-parent" >
+        <div class="spec">Temperature range:</div><div class="specvalue">TODO</div>
+      </div>
+      <div class="spec-parent">
+        <div class="spec">Battery Life:</div><div class="specvalue">TODO</div>
+      </div>
+      <div class="spec-parent">
+        <div class="spec">Humidity range:</div><div class="specvalue">TODO</div>
+      </div>
+      <div class="spec-parent">
+        <div class="spec">Sensor</div><div class="specvalue"><a href="dth11.html">DHT11</a></div>
+      </div>
     </div>
     
     </body> 

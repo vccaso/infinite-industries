@@ -1,1 +1,67 @@
-
+body {
+    font-family: verdana;
+    background-color: #ffccaa;
+    font-size: 11px;
+    margin:40px;
+    padding:40px;
+  }
+  
+  .desc{
+    font-family: verdana;
+    font-size: 14px;
+    color: blue;
+    padding: 10px;
+  }
+  
+  .desc2{
+    font-family: verdana;
+    font-size: 11px;
+    color: blue;
+    padding: 10px;
+  }
+  
+  .prod-container {
+    max-width: 350px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    background: #ffffff;
+    padding: 20px;
+  }
+  
+  .product{
+    font-family: verdana;
+    font-size: 20px;
+    color: blue;
+    border: 1px;
+    padding: 10px;
+    
+  }
+  
+  .spec-title{
+    font-size: 15px;
+    color: #336699;
+  }
+  
+  .spec-parent {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .spec{
+    font-family: verdana;
+    display: inline-block;
+    font-size: 15px;
+    color: purple;
+    border: 1px;
+    vertical-align: middle;
+    text-align: left;
+  }
+  
+  .specvalue{
+    font-family: verdana;
+    display: inline-block;
+    font-size: 15px;
+    color: #000000;
+    vertical-align: middle;
+    text-align: left;
+  }
