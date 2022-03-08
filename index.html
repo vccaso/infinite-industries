@@ -41,19 +41,35 @@
         
       }
       
+      .spec-title{
+        font-size: 15px;
+        color: #336699;
+      }
+      
+      .spec-parent {
+        margin: 1rem;
+        padding: 2rem 2rem;
+        text-align: center;
+        min-height: 25px;
+      }
+      
       .spec{
         font-family: verdana;
+        display: inline-block;
         font-size: 15px;
         color: purple;
         border: 1px;
         padding: 10px;
+        vertical-align: middle;
       }
       
       .specvalue{
         font-family: verdana;
+         display: inline-block;
         font-size: 15px;
         color: #000000;
         padding: 10px;
+          vertical-align: middle;
       }
     </style>
   </header>
@@ -69,11 +85,11 @@
     <div class="prod-container">
     <div class="product">Nano Module 7  </div>
     <div class="desc">NM7 allows to track the temperature and humidity. It is desingned to be carried by a drone.</div>
-    <div>Specifications</div>
-    <div><span class="spec">Temperature range:</span><span class="specvalue">TODO</span></div>
-    <div><span class="spec">Battery Life:</span><span class="specvalue">TODO</span></div>
-    <div><span class="spec">Humidity range:</span><span class="specvalue">TODO</span></div>
-    <div><span class="spec">Sensor</span><span class="specvalue">DHT!!</span></div>
+    <div class="spec-title" >Specifications</div>
+    <div class="spec-parent" ><div class="spec">Temperature range:</div><div class="specvalue">TODO</div></div>
+    <div class="spec-parent"><div class="spec">Battery Life:</div><div class="specvalue">TODO</div></div>
+    <div class="spec-parent"><div class="spec">Humidity range:</div><div class="specvalue">TODO</div></div>
+    <div class="spec-parent"><div class="spec">Sensor</div><div class="specvalue">DHT!!</div></div>
 
 <div class="desc2">The DHT11 detects water vapor by measuring the electrical resistance between two electrodes. 
   The humidity sensing component is a moisture holding substrate with electrodes applied to the surface. 
