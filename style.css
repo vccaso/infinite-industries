@@ -1,9 +1,21 @@
 body {
     font-family: verdana;
-    background-color: #bfccf8;
+    background-color: #f2f4fa;
     font-size: 11px;
-    margin:40px;
-    padding:40px;
+    margin: 0px 40px 40px 40px;
+    padding: 0px 40px 40px 40px;
+  }
+
+  .h {
+      width: 100%;
+      background-color: #7267b3;
+      color: #ffffff;
+      font-size: 25px;
+        padding: 10px;
+  }
+
+  .h div {
+    font-size: 11px;
   }
   
   .desc{
@@ -24,7 +36,7 @@ body {
     max-width: 350px;
     border-radius: 25px;
     border: 2px solid #7267b3;
-    background: #c4d1f7;
+    background: #56eb73;
     padding: 20px;
   }
   
